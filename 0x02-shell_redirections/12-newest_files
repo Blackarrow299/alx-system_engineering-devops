@@ -1,0 +1,2 @@
+#!/bin/bash
+ls . -ap --sort=time -I . | grep -v / | head -n 12
